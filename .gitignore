@@ -1,0 +1,15 @@
+# Python 虛擬環境與快取
+.venv/
+__pycache__/
+*.pyc
+
+# cocotb 與 iverilog 模擬暫存檔
+sim_build/
+results.xml
+*.out
+*.vvp
+
+# 波形檔（檔案通常很大，不建議上版控）
+*.vcd
+*.fst
+*.ghw
